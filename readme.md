@@ -137,10 +137,9 @@ You can calculate it using the formula, where weight divided by height squared
 **Ans.** 
 
 ```js
-        function calculator(weight,height){
-            let bmi = weight/(height*height)
-            return Math.round(bmi)
-        }
-
-        console.log(calculator(70,1.72));
+function calculator(weight,height){
+    let bmi = weight/(height*height)
+    return Math.round(bmi)
+}
+console.log(calculator(70,1.72));
 ```
